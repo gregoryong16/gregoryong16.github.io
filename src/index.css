@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  background-color: #FFFFFF;
+  height: 70px;
+  color: #080808;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: sans-serif;
+}
+
+.nav-profile_button{
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 250px;
+}
+
+.nav-icon{
+  height:37px;
+  margin-right: 0px;
+}
+
+.nav-profile_text{
+  font-size: 1.7em;
+  font-family:"Poppins";
+  letter-spacing: 0.005em;
+}
+
+.nav-education_button{
+  margin-right: 22px;
+  font-size: 1.2em;
+}
+
+.nav-skills_button{
+  margin-right: 22px;
+  font-size: 1.2em;
+}
+
+.nav-work_button{
+  margin-right: 22px;
+  font-size: 1.2em;
+}
+
+.nav-projects_button{
+  margin-right: 22px;
+  font-size: 1.2em;
+}
+
+.nav-cca_button{
+  margin-right: 22px;
+  font-size: 1.2em;
+}
+
+.nav-achievements_button{
+  margin-right: 22px;
+  font-size: 1.2em;
+}
+
+.main{
+  background-color: #080808;
+}
