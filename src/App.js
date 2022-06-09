@@ -1,8 +1,8 @@
-import './App.css';
+import './index.css';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Navbar />
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+
