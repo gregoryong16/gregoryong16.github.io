@@ -1,7 +1,7 @@
 .nav {
   background-color: #FFFFFF;
   height: 70px;
-  color: #964B00;
+  color: rgb(104, 99, 99);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -65,14 +65,10 @@
   flex-direction: column;
 }
 
-.main-avatar{
-  height: 300px;
-}
-
 .main-intro-box{
   height: 100px;
   width: 700px;
-  background-color: rgba(117, 111, 111, 0.63);
+  background-color: rgba(5, 0, 0, 0.63);
   color: #FFFFFF;
   display:flex;
   align-items: flex-start;
@@ -90,4 +86,63 @@
 .intro-description{
   margin-left: 10px;
   font-family: sans-serif;
+}
+
+.socials_tag {
+  font-family: sans-serif;
+  font-size: x-large; 
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.socials_bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+
+.github_icon{
+  margin-top: 30px;
+  margin-right: 100px;
+  transition: transform 250ms;
+}
+
+.github_icon:hover {
+  transform: translateY(-5px);
+}
+
+.linkedin_icon{
+  margin-top: 30px;
+  margin-right: 100px;
+  transition: transform 250ms;
+}
+
+.linkedin_icon:hover {
+  transform: translateY(-5px);
+}
+
+.email_icon{
+  margin-top: 30px;
+  margin-right: 100px;
+  transition: transform 250ms;
+}
+
+.email_icon:hover {
+  transform: translateY(-5px);
+}
+
+.instagram_icon{
+  margin-top: 30px;
+  transition: transform 250ms;
+}
+
+.instagram_icon:hover {
+  transform: translateY(-5px);
+}
+
+.education_header{
+  font-size: 50px;
 }

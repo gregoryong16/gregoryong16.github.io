@@ -3,7 +3,7 @@ import pic from "../images/icon.png"
 
 export default function Navbar() {
     return <nav className="nav">
-        <button className="nav-profile_button">
+        <button className="nav-profile_button" >
             <img src={pic} className="nav-icon" alt= "icon"/>
             <h1 className="nav-profile_text">Gregory Ong</h1>
         </button>
