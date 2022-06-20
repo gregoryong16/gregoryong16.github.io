@@ -61,6 +61,5 @@ export default function Main() {
                <FontAwesomeIcon icon={faInstagram} size="2x" />
                </a>
             </div>
-            <hr></hr>
     </div>
 }

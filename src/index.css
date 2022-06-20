@@ -1,6 +1,11 @@
+html, body, #root, .App{
+  height: 100%;
+}
+
+
 .nav {
   background-color: #FFFFFF;
-  height: 70px;
+  height: 10%;
   color: rgb(104, 99, 99);
   display: flex;
   flex-direction: row;
@@ -143,6 +148,139 @@
   transform: translateY(-5px);
 }
 
+.education_div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(236, 232, 232);
+}
+
 .education_header{
+  margin-top: 40px;
+  height: 15%;
   font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.education_university{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 30%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.education-universityname{
+  margin-top: 10px;
+  margin-left:30px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.education-universitypointers{
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+
+.education_juniorcollege{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 34%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.education-juniorcollegename{
+  margin-top: 10px;
+  margin-left:30px;
+  font-size:20px;
+  font-weight: bold;
+}
+.education-juniorcollegepointers{
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skills_div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills_header{
+  margin-top: 40px;
+  height: 15%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 2%;
+}
+
+.skills_programming{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 30%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.skills_programming_header{
+  margin-top: 15px;
+  margin-left:30px;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.skills_programming_pointers{
+  margin-top: 2px;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.skills_languages_header{
+  margin-top: 20px;
+  margin-left:30px;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.skills_languages_pointers{
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+.skills_software_header{
+  margin-top: 30px;
+  margin-left:30px;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.skills-software{
+  margin-top: 15px;
+  margin-left: 30px;
+  font-size: 20px;
 }
