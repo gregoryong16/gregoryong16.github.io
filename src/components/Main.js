@@ -33,7 +33,7 @@ export default function Main() {
                <Box className="main-intro-box">
                      <h1 class="intro-name">Hi, I&apos;m Gregory!</h1>
                      <div className = "intro-description" style={{ height: '40px' }} > 
-                        <TypeAnimation cursor={true} sequence={['I am fascinated with machine learning, very interested in both front and back-end development and am always open to learn new skills!', 500, ""]} wrapper="h2" repeat={Infinity} />
+                        <TypeAnimation cursor={true} sequence={['I am fascinated with both front and backend development, machine learning and am always down to learn new skills!', 500, ""]} wrapper="h2" repeat={Infinity} />
                      </div>
                </Box>
             </Container> 

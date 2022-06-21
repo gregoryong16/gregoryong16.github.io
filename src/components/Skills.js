@@ -10,7 +10,7 @@ export default function Skills() {
             </h1>
             <ul className="skills_programming_pointers">
             <li>Python, Java, C/C++</li>
-            <li>React, React Native , Django</li>
+            <li>React, React Native, Django, FastAPI</li>
             <li>Git, GitHub, Docker</li>
             <li>Machine Learning</li>
             </ul>

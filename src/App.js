@@ -7,6 +7,7 @@ import Work from './components/Work';
 import Projects from './components/Projects';
 import CCA from './components/CCA';
 import Achievements from './components/Achievements';
+import Copyright from './components/Copyright';
 
 import {Helmet} from "react-helmet";
 
@@ -28,6 +29,7 @@ export default function App() {
       <Projects />
       <CCA />
       <Achievements />
+      <Copyright />
     </div>
   );
 }

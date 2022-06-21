@@ -190,7 +190,6 @@ html, body, #root, .App{
   font-size: 18px;
 }
 
-
 .education_juniorcollege{
   font-family: sans-serif;
   background-color: rgba(204, 199, 199, 0.404);
@@ -283,4 +282,228 @@ html, body, #root, .App{
   margin-top: 15px;
   margin-left: 30px;
   font-size: 20px;
+}
+
+.work_div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(204, 199, 199, 0.404);
+}
+
+.work_header{
+  margin-top: 40px;
+  height: 15%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 2%;
+}
+
+.work_box{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 30%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.work_title{
+  margin-top: 15px;
+  margin-left:30px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.work_pointers{
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 16px;
+}
+
+.projects_div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects_header{
+  margin-top: 40px;
+  height: 15%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 2%;
+}
+
+.projects_box{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 30%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.projects_title{
+  margin-top: 15px;
+  margin-left:30px;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.projects_pointers{
+  margin-top: 15px;
+  margin-left: 45px;
+  font-size: 16px;
+  margin-right: 45px;
+}
+
+.projects_git_icon{
+  margin-top: 10px;
+  margin-right: 100px;
+  transition: transform 250ms;
+  margin-left:30px;
+}
+
+.projects_git_icon:hover {
+  transform: translateY(-5px);
+}
+
+.projects_title2{
+  margin-top: 30px;
+  margin-left:30px;
+  font-size:26px;
+  font-weight: bold;
+}
+
+.projects_pointers2{
+  margin-top: 30px;
+  margin-left: 45px;
+  font-size: 16px;
+  margin-right: 45px;
+}
+
+.cca_div{
+  height: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(204, 199, 199, 0.404);
+}
+
+.cca_header{
+  margin-top: 40px;
+  height: 15%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 0%;
+}
+
+.cca_box{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 25%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.cca_title{
+  margin-top: 15px;
+  margin-left:30px;
+  font-size:21px;
+  font-weight: bold;
+}
+
+.cca_pointers{
+  margin-top: 40px;
+  margin-left: 45px;
+  font-size: 18px;
+  margin-right: 45px;
+}
+
+.football_box{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 20%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.achievements_div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievements_header{
+  margin-top: 40px;
+  height: 15%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 2%;
+}
+
+.achievements_box{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 25%;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.achievements_title{
+  margin-top: 20px;
+  margin-left:30px;
+  font-size:25px;
+  font-weight: bold;
+}
+
+.achievements_pointers{
+  margin-top: 25px;
+  margin-left: 45px;
+  font-size: 16px;
+  margin-right: 45px;
+}
+
+.copyright_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright_header{
+  margin-top: 25px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: rgb(15, 15, 15);
 }
