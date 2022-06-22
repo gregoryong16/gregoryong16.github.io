@@ -1,6 +1,6 @@
 import React from "react"
 import { Box } from "@chakra-ui/react"
-
+import Navbar from "./Navbar"
 export default function Education() {
     return <div className="education_div">
         <h1 className="education_header">Education</h1>
