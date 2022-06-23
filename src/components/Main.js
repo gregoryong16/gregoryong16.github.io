@@ -10,7 +10,6 @@ import {MdEmail} from 'react-icons/md';
 import Avatar from "./Avatar1"
 
 export default function Main() {
-   
     return <div>
             <Container class = "main" >
                <Canvas
