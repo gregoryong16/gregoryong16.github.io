@@ -26,7 +26,7 @@ export default function CCA() {
             <li>Plan and organise weekly training sessions</li>
             </ul>
         </Box>
-        <Box className="cca_box">
+        <Box className="volunteering_box">
             <h1 className="cca_title">
                 Programmes Manager - Volunteering Club @ Institute of Mental Health<br/>
                 Nanyang Junior College <br/>

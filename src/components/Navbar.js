@@ -1,7 +1,6 @@
 import React from "react"
 import pic from "../images/icon.png"
-import {Routes, Route, useNavigate} from 'react-router-dom';
-import Education from "./Education";
+import {useNavigate} from 'react-router-dom';
 export default function Navbar() {
     const navigate = useNavigate();
     const navigateHome = () => {

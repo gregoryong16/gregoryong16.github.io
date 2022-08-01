@@ -20,7 +20,7 @@ export default function Projects() {
                <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
     </Box>
-    <Box className="projects_box">
+    <Box className="projects_box2">
         <h1 className="projects_title2">
             Software Engineering Project
         </h1>

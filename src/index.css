@@ -22,51 +22,51 @@ html, body, #root, .App{
 .nav-profile_button{
   display: flex;
   align-items: center;
-  margin-right: 100px;
-  margin-left: 250px;
+  margin-right: 8%;
+  margin-left: 20%;
 }
 
 .nav-icon{
   height:34px;
-  margin-right: 0px;
 }
 
 .nav-profile_text{
-  font-size: 25px;
+  margin-bottom: 2%;
+  font-size: 160%;
   font-family:"Poppins";
-  letter-spacing: 0.005em;
+  letter-spacing: 1%;
   font-weight: bold;
   color: #080808;
 }
 
 .nav-education_button{
-  margin-right: 22px;
-  font-size: 1.2em;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 .nav-skills_button{
-  margin-right: 22px;
-  font-size: 1.2em;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 .nav-work_button{
-  margin-right: 22px;
-  font-size: 1.2em;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 .nav-projects_button{
-  margin-right: 22px;
-  font-size: 1.2em;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 .nav-cca_button{
-  margin-right: 22px;
-  font-size: 1.2em;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 .nav-achievements_button{
-  margin-right: 22px;
-  font-size: 1.2em;
+  margin-right: 2%;
+  font-size: 125%;
 }
 
 .main{
@@ -78,7 +78,7 @@ html, body, #root, .App{
 
 .main-intro-box{
   height: 150px;
-  width: 700px;
+  width: 50%;
   background-color: rgba(5, 0, 0, 0.63);
   color: #FFFFFF;
   display:flex;
@@ -88,25 +88,26 @@ html, body, #root, .App{
 }
 
 .intro-name{
-  margin-top: 10px;
-  margin-left: 10px;
-  font-size: 35px;
+  margin-top: 1%;
+  margin-left: 2%;
+  font-size: 225%;
   font-weight: 500;
   font-family: sans-serif;
 }
 
 .intro-description{
-  margin-top:10px;
-  margin-left: 10px;
-  font-size: 20px;
+  margin-top: 1%;
+  margin-right: 2%;
+  font-size: 130%;
   font-family: sans-serif;
+  margin-left: 2%;
 }
 
 .socials_tag {
   font-family: sans-serif;
   font-size: x-large; 
   text-align: center;
-  margin-top: 50px;
+  margin-top: 4%;
   font-weight: bold;
 }
 
@@ -115,12 +116,12 @@ html, body, #root, .App{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 5%;
 }
 
 .github_icon{
-  margin-top: 30px;
-  margin-right: 100px;
+  margin-top: 3%;
+  margin-right: 5%;
   transition: transform 250ms;
 }
 
@@ -129,8 +130,8 @@ html, body, #root, .App{
 }
 
 .linkedin_icon{
-  margin-top: 30px;
-  margin-right: 100px;
+  margin-top: 3%;
+  margin-right: 5%;
   transition: transform 250ms;
 }
 
@@ -139,8 +140,8 @@ html, body, #root, .App{
 }
 
 .email_icon{
-  margin-top: 30px;
-  margin-right: 100px;
+  margin-top: 3%;
+  margin-right: 5%;
   transition: transform 250ms;
 }
 
@@ -149,7 +150,7 @@ html, body, #root, .App{
 }
 
 .instagram_icon{
-  margin-top: 30px;
+  margin-top: 3%;
   transition: transform 250ms;
 }
 
@@ -165,9 +166,9 @@ html, body, #root, .App{
 }
 
 .education_header{
-  margin-top: 100px;
+  margin-top: 6%;
   height: 15%;
-  font-size: 50px;
+  font-size: 350% ;
   font-weight: bold;
   font-family: sans-serif;
 }
@@ -180,22 +181,23 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 30%;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
 
 .education-universityname{
-  margin-top: 10px;
-  margin-left:30px;
-  font-size:20px;
+  margin-top: 2%;
+  margin-left: 4%;
+  font-size: 130%;
   font-weight: bold;
 }
 
 .education-universitypointers{
-  margin-top: 10px;
-  margin-left: 50px;
-  font-size: 18px;
+  margin-top: 1%;
+  margin-left: 6%;
+  font-size: 115%;
+  margin-bottom: 2%;
 }
 
 .education_juniorcollege{
@@ -206,22 +208,22 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 34%;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
 
 .education-juniorcollegename{
-  margin-top: 10px;
-  margin-left:30px;
-  font-size:20px;
+  margin-top: 2%;
+  margin-left: 4%;
+  font-size: 130%;
   font-weight: bold;
 }
 .education-juniorcollegepointers{
-  margin-top: 10px;
-  margin-left: 50px;
-  font-size: 18px;
-  margin-bottom: 10px;
+  margin-top: 1%;
+  margin-left: 6%;
+  font-size: 115%;
+  margin-bottom: 2%;
 }
 
 .skills_div{
@@ -232,9 +234,9 @@ html, body, #root, .App{
 }
 
 .skills_header{
-  margin-top: 100px;
+  margin-top: 6%;
   height: 15%;
-  font-size: 50px;
+  font-size: 350%;
   font-weight: bold;
   font-family: sans-serif;
   margin-bottom: 2%;
@@ -248,48 +250,51 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 30%;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
 
 .skills_programming_header{
-  margin-top: 15px;
-  margin-left:30px;
-  font-size:25px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 .skills_programming_pointers{
-  margin-top: 2px;
-  margin-left: 50px;
-  font-size: 16px;
+  margin-top: 1%;
+  margin-left: 7%;
+  font-size: 100%;
+  margin-bottom: 2%;
 }
 
 .skills_languages_header{
-  margin-top: 20px;
-  margin-left:30px;
-  font-size:25px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 .skills_languages_pointers{
-  margin-top: 15px;
-  margin-left: 50px;
-  font-size: 18px;
+  margin-top: 1%;
+  margin-left: 7%;
+  font-size: 100%;
+  margin-bottom: 2%;
 }
 
 .skills_software_header{
-  margin-top: 30px;
-  margin-left:30px;
-  font-size:25px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 .skills-software{
-  margin-top: 15px;
-  margin-left: 30px;
-  font-size: 20px;
+  margin-top: 1%;
+  margin-left: 5%;
+  font-size: 120%;
+  margin-bottom: 2%;
 }
 
 .work_div{
@@ -300,9 +305,9 @@ html, body, #root, .App{
 }
 
 .work_header{
-  margin-top: 100px;
+  margin-top: 6%;
   height: 15%;
-  font-size: 50px;
+  font-size: 350%;
   font-weight: bold;
   font-family: sans-serif;
   margin-bottom: 2%;
@@ -316,22 +321,23 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 30%;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
 
 .work_title{
-  margin-top: 15px;
-  margin-left:30px;
-  font-size:20px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 .work_pointers{
-  margin-top: 15px;
-  margin-left: 45px;
-  font-size: 16px;
+  margin-top: 1%;
+  margin-left: 7%;
+  font-size: 100%;
+  margin-bottom: 2%;
 }
 
 .projects_div{
@@ -342,9 +348,9 @@ html, body, #root, .App{
 }
 
 .projects_header{
-  margin-top: 100px;
+  margin-top: 6%;
   height: 15%;
-  font-size: 50px;
+  font-size: 350%;
   font-weight: bold;
   font-family: sans-serif;
   margin-bottom: 2%;
@@ -358,48 +364,62 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 30%;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
 
 .projects_title{
-  margin-top: 15px;
-  margin-left:30px;
-  font-size:25px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 .projects_pointers{
-  margin-top: 15px;
-  margin-left: 45px;
-  font-size: 16px;
-  margin-right: 45px;
+  margin-top: 1%;
+  margin-left: 7%;
+  font-size: 100%;
+  margin-bottom: 1%;
 }
 
 .projects_git_icon{
-  margin-top: 10px;
-  margin-right: 100px;
+  margin-top: 1%;
   transition: transform 250ms;
-  margin-left:30px;
+  margin-left:5%;
+  margin-bottom: 2%;
 }
 
 .projects_git_icon:hover {
   transform: translateY(-5px);
 }
 
+.projects_box2{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: fit-content;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
 .projects_title2{
-  margin-top: 30px;
-  margin-left:30px;
-  font-size:26px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 .projects_pointers2{
-  margin-top: 30px;
-  margin-left: 45px;
-  font-size: 16px;
-  margin-right: 45px;
+  margin-top: 1%;
+  margin-left: 7%;
+  font-size: 100%;
+  margin-bottom: 2%;
+  
 }
 
 .cca_div{
@@ -410,12 +430,12 @@ html, body, #root, .App{
 }
 
 .cca_header{
-  margin-top: 100px;
+  margin-top: 7%;
   height: 15%;
-  font-size: 50px;
+  font-size: 350%;
   font-weight: bold;
   font-family: sans-serif;
-  margin-bottom: 0%;
+  margin-bottom: 2%;
 }
 
 .cca_box{
@@ -426,23 +446,25 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 25%;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
 
 .cca_title{
-  margin-top: 15px;
-  margin-left:30px;
-  font-size:21px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
+  margin-right: 5%;
 }
 
 .cca_pointers{
-  margin-top: 40px;
-  margin-left: 45px;
-  font-size: 18px;
-  margin-right: 45px;
+  margin-top: 1%;
+  margin-left: 7%;
+  font-size: 100%;
+  margin-bottom: 2%;
+  margin-right: 5%;
 }
 
 .football_box{
@@ -453,7 +475,20 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 20%;
+  height: fit-content;
+  width: 50%;
+  margin-bottom: 2.5%;
+}
+
+.volunteering_box{
+  font-family: sans-serif;
+  background-color: rgba(204, 199, 199, 0.404);
+  color: #050505;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
@@ -466,9 +501,9 @@ html, body, #root, .App{
 }
 
 .achievements_header{
-  margin-top: 100px;
+  margin-top: 7%;
   height: 15%;
-  font-size: 50px;
+  font-size: 350%;
   font-weight: bold;
   font-family: sans-serif;
   margin-bottom: 2%;
@@ -482,23 +517,23 @@ html, body, #root, .App{
   align-items: flex-start;
   flex-direction: column;
   border-radius: 10px;
-  height: 25%;
+  height: fit-content;
   width: 50%;
   margin-bottom: 2.5%;
 }
 
 .achievements_title{
-  margin-top: 20px;
-  margin-left:30px;
-  font-size:25px;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 150%;
   font-weight: bold;
 }
 
 .achievements_pointers{
-  margin-top: 25px;
-  margin-left: 45px;
-  font-size: 16px;
-  margin-right: 45px;
+  margin-top: 1%;
+  margin-left: 7%;
+  font-size: 100%;
+  margin-bottom: 2%;
 }
 
 .copyright_div{
@@ -509,8 +544,8 @@ html, body, #root, .App{
 }
 
 .copyright_header{
-  margin-top: 25px;
-  font-size: 16px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  font-size: 100%;
+  margin-bottom: 2%;
   color: rgb(15, 15, 15);
 }

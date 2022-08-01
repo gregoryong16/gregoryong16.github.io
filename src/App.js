@@ -10,7 +10,7 @@ import Achievements from './components/Achievements';
 import Copyright from './components/Copyright';
 import ScrollToTop from './components/ScrolltoTop';
 import {Helmet} from "react-helmet";
-import {Routes, Route, useNavigate} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 
 export default function App() {
   return (
