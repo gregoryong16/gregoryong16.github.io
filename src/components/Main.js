@@ -46,7 +46,7 @@ export default function Main() {
 
                <a href="https://www.linkedin.com/in/gregory-ong-191555209/"
                className="linkedin_icon">
-               <FontAwesomeIcon icon={faLinkedin} size="2x" />
+               <FontAwesomeIcon icon={faLinkedin} size="2x" /> 
                </a>
 
                <a href="mailto:gregory.ong16@gmail.com"
