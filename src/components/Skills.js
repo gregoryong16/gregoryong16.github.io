@@ -1,36 +1,63 @@
-import React from "react"
-import { Box } from "@chakra-ui/react"
+import React from 'react';
+import { RiComputerFill } from 'react-icons/ri';
+import { VscServerProcess } from 'react-icons/vsc';
+import { IoLanguageSharp } from 'react-icons/io5';
 
-export default function Skills() {
-    return <div className="skills_div">
-        <h1 className="skills_header">Skills</h1>
-        <Box className="skills_programming">
-            <h1 className="skills_programming_header">
-                Programming:
-            </h1>
-            <ul className="skills_programming_pointers">
-            <li>Python, Java, C/C++</li>
-            <li>React, React Native, Django, FastAPI</li>
-            <li>Git, GitHub, Docker</li>
-            <li>Machine Learning</li>
-            </ul>
-        </Box>
-        <Box className="skills_programming">
-        <h1 className="skills_languages_header">
-                Languages:
-            </h1>
-            <ul className="skills_languages_pointers">
-            <li>English (Proficient)</li>
-            <li>Chinese/Mandarin (Proficient)</li>
-            </ul>
-        </Box>
-        <Box className="skills_programming">
-        <h1 className="skills_software_header">
-                Softwares:
-            </h1>
-            <h1 className="skills-software">
-            Microsoft Office, Visual Studios, Android Studio, Figma, Zoom, Discord, Slack
-            </h1>
-        </Box>
-    </div>
-}
+const Skills = () => {
+	return (
+		<div className='skillsContainer' id='skills'>
+			<div className='skillsFlex'>
+				<div className='flexContainer'>
+					<div className='rightContainer'>
+						<div className='itemContainer'>
+							<span className='itemTitle'>
+								<RiComputerFill size={60} color='grey' />
+								<span>Programming</span>
+							</span>
+							<span className='itemDesc'>
+								<p>
+									<b>Topics:</b> <br />
+									Web Development, Mobile App Development, Data Science,
+									AI, Algorithms, Machine Learning, Object-Oriented Design, Agile
+									<br /> <br />
+									<b>Programming:</b>
+									<br />
+									ReactJS, React Native, Java, Python,
+									Firebase, C, MySQL
+								</p>
+							</span>
+						</div>  
+                        <div className='itemContainer'>
+							<span className='itemTitle'>
+								<IoLanguageSharp size={60} color='grey' />
+								<span>Languages</span>
+							</span>
+							<span className='itemDesc'>
+								<p>
+									<b>Fluent in:</b>
+									<br />
+                                    English , Mandarin
+								</p>
+							</span>
+						</div> 
+						<div className='itemContainer'>
+							<span className='itemTitle'>
+								<VscServerProcess size={60} color='grey' />
+								<span>Software</span>
+							</span>
+							<span className='itemDesc'>
+								<p>
+									<b>Software used:</b>
+									<br />
+                                    Microsoft Office, Visual Studios, Android Studio, Figma, Zoom, Discord, Slack
+								</p>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+	);
+};
+
+export default Skills;
