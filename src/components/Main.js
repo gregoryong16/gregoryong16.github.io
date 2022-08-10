@@ -1,14 +1,12 @@
-import { Container, Box } from "@chakra-ui/react"
-import TypeAnimation from 'react-type-animation';
+import { Container, Box,Avatar } from "@chakra-ui/react"
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faInstagram,faLinkedin, faGithub,} from "@fortawesome/free-brands-svg-icons";
 import {MdEmail} from 'react-icons/md';
-
-import Avatar from "./Avatar1"
-
+import profile_pic from "../images/profile-photo-cropped.jpg"
+import Avatar1 from "./Avatar1"
 export default function Main() {
     return <div>
             <Container class = "main" >
@@ -24,19 +22,20 @@ export default function Main() {
                      <directionalLight intensity={0.3} />
 
                      <Suspense fallback={null}>
-                        <Avatar position={[0.025, -0.9, 0]} /> 
+                        <Avatar1 position={[0.025, -0.9, 0]} /> 
                      </Suspense>
 
                      <OrbitControls />
                </Canvas> 
-               <Box className="main-intro-box">
-                     <h1 class="intro-name">Hi, I&apos;m Gregory!</h1>
-                     <div className = "intro-description" style={{ height: '40px' }} > 
-                        <TypeAnimation cursor={true} sequence={['I am fascinated with both front and backend development, machine learning and am always down to learn new skills!', 500, ""]} wrapper="h2" repeat={Infinity} />
-                     </div>
-               </Box>
+                  <Box className="main-intro-box">
+                     <Box className="main-intro-subbox">
+                        <h1 className="intro-name">Hi, I&apos;m Gregory!</h1>
+                        <h2 className="intro-description">I am a Year 3 Computer Science student currently studying in Nanyang Technological University. I am interested in both
+                        front and backend programming, and also in AI.</h2>
+                     </Box>
+                     <Avatar className="main-profile-icon" size='3xl' src={profile_pic}/>
+                  </Box>
             </Container> 
-
             <h1 className="socials_tag">Feel free to connect with me! </h1>
 
             <div className = "socials_bar">

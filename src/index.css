@@ -4,14 +4,14 @@ html, body, #root, .App{
 
 
 .nav {
-  background-color: #FFFFFF;
+  background-color: white;
   height: 8%;
   color: rgb(104, 99, 99);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position:fixed;
   top:0;
   opacity: 0.95;
@@ -24,52 +24,93 @@ html, body, #root, .App{
   align-items: center;
   margin-right: 8%;
   margin-left: 20%;
+  transition: transform 250ms
 }
 
+.nav-profile_button:hover {
+  transform: translateY(-3px);
+  font-weight: bold;
+}
 .nav-icon{
   height:34px;
 }
 
 .nav-profile_text{
   margin-bottom: 2%;
-  font-size: 160%;
-  font-family:"Poppins";
+  font-size: 150%;
+  font-family: var(--chakra-fonts-body);
   letter-spacing: 1%;
-  font-weight: bold;
-  color: #080808;
+  color:rgb(104, 99, 99);
 }
 
 .nav-education_button{
   margin-right: 2%;
   font-size: 125%;
+  transition: transform 250ms;
+}
+
+.nav-education_button:hover {
+  transform: translateY(-5px);
+  text-decoration: underline;
 }
 
 .nav-skills_button{
   margin-right: 2%;
   font-size: 125%;
+  transition: transform 250ms;
+}
+
+.nav-skills_button:hover {
+  transform: translateY(-5px);
+  text-decoration: underline;
 }
 
 .nav-work_button{
   margin-right: 2%;
   font-size: 125%;
+  transition: transform 250ms;
+}
+
+.nav-work_button:hover {
+  transform: translateY(-5px);
+  text-decoration: underline;
 }
 
 .nav-projects_button{
   margin-right: 2%;
   font-size: 125%;
+  transition: transform 250ms;
+}
+
+.nav-projects_button:hover {
+  transform: translateY(-5px);
+  text-decoration: underline;
 }
 
 .nav-cca_button{
   margin-right: 2%;
   font-size: 125%;
+  transition: transform 250ms;
+}
+
+.nav-cca_button:hover {
+  transform: translateY(-5px);
+  text-decoration: underline;
 }
 
 .nav-achievements_button{
   margin-right: 2%;
   font-size: 125%;
+  transition: transform 250ms;
+}
+
+.nav-achievements_button:hover {
+  transform: translateY(-5px);
+  text-decoration: underline;
 }
 
 .main{
+  margin-top: 5%;
   display:flex;
   align-items: center;
   flex-direction: column;
@@ -79,36 +120,40 @@ html, body, #root, .App{
 .main-intro-box{
   height: 150px;
   width: 50%;
-  background-color: rgba(5, 0, 0, 0.63);
-  color: #FFFFFF;
+  background-color: white;
+  color: grey;
   display:flex;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   border-radius: 10px;
 }
 
 .intro-name{
   margin-top: 1%;
   margin-left: 2%;
-  font-size: 225%;
-  font-weight: 500;
-  font-family: sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: var(--chakra-fontSizes-3xl);
 }
 
 .intro-description{
   margin-top: 1%;
   margin-right: 2%;
-  font-size: 130%;
-  font-family: sans-serif;
+  font-size: 110%;
+  font-family: var(--chakra-fonts-body);
   margin-left: 2%;
 }
 
+.main-profile-icon{
+  height:100%;
+}
 .socials_tag {
   font-family: sans-serif;
   font-size: x-large; 
   text-align: center;
   margin-top: 4%;
   font-weight: bold;
+  color: grey;
 }
 
 .socials_bar{
