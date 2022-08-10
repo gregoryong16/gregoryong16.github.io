@@ -1,4 +1,4 @@
-import { Container, Box,Avatar } from "@chakra-ui/react"
+import { Container, Box,Avatar,Button,ButtonGroup } from "@chakra-ui/react"
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
@@ -7,6 +7,8 @@ import {faInstagram,faLinkedin, faGithub,} from "@fortawesome/free-brands-svg-ic
 import {MdEmail} from 'react-icons/md';
 import profile_pic from "../images/profile-photo-cropped.jpg"
 import Avatar1 from "./Avatar1"
+import resume from "../files/Gregory's_Resume.pdf"
+
 export default function Main() {
     return <div>
             <Container class = "main" >
@@ -35,6 +37,14 @@ export default function Main() {
                      </Box>
                      <Avatar className="main-profile-icon" size='3xl' src={profile_pic}/>
                   </Box>
+                  <div>
+                     <h2 className="resume">Take a look at my resume :)</h2>
+                     <ButtonGroup variant='outline' spacing='6'>
+                        <Button colorScheme='teal' variant='solid'>
+                           <a href={resume} download="Gregory's Resume.pdf"> My Resume </a>
+                        </Button>
+                     </ButtonGroup>
+                  </div>
             </Container> 
             <h1 className="socials_tag">Feel free to connect with me! </h1>
 
