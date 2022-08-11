@@ -46,8 +46,10 @@ export default function Main() {
                         </Button>
                      </ButtonGroup>
                   </div>
+                  <div className="main-projects_div">
+                     <h3 class="main-projects_header">Projects</h3>
+                  </div>
             </Container> 
-            
             <h1 className="socials_tag">Feel free to connect with me! </h1>
 
             <div className = "socials_bar">
