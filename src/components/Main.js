@@ -33,7 +33,7 @@ export default function Main() {
                   <Box className="main-intro-box">
                      <Box className="main-intro-subbox">
                         <h1 className="intro-name">Hi, I&apos;m Gregory!</h1>
-                        <h2 className="intro-description">I am a Year 3 Computer Science student currently studying in Nanyang Technological University. I am interested in both
+                        <h2 className="intro-description">I am a penultimate Computer Science student currently studying in Nanyang Technological University. I am interested in both
                         front and backend programming, and also in AI.</h2>
                      </Box>
                      <Avatar className="main-profile-icon" size='3xl' src={profile_pic}/>
@@ -45,9 +45,6 @@ export default function Main() {
                            <AiOutlineDownload/>
                         </Button>
                      </ButtonGroup>
-                  </div>
-                  <div className="main-projects_div">
-                     <h3 class="main-projects_header">Projects</h3>
                   </div>
             </Container> 
             <h1 className="socials_tag">Feel free to connect with me! </h1>

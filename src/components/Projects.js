@@ -27,7 +27,7 @@ export default function Projects() {
         <ul className="projects_pointers2">
         <li>Developed a phone application that tracks real time utility usage of households </li>
         <li>Designed the User interface of the application</li>
-        <li> Designed algorithm to query data from database</li>
+        <li>Designed algorithm to query data from database</li>
         </ul>
     </Box>
 </div>
