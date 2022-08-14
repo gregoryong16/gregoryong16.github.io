@@ -27,28 +27,30 @@ const Work = () => {
 			<div className="work_div">
 				<div className='expFlex'>
                     <MdOutlineWork size={100} color='black' />
-                    {WORKEXP.map((item, index) => (
-					    <div class="container">
-                            <div class="card" key={index}>
-                                <div class="card__header">
-                                    <img src={item.image} alt="card__image" class="card__image" width="500"/>
+                    <div className="overall_container">
+                        {WORKEXP.map((item, index) => (
+                            <div class="container">
+                                <div class="card" key={index}>
+                                    <div class="card_header">
+                                        <img src={item.image} alt="card__image" class="card__image" width="500"/>
+                                    </div>
+                                    <div class="card_body">
+                                        <span class="tag tag-blue">{item.date}</span>
+                                        <h4>{item.position}</h4>
+                                        {item.desc}
+                                    </div>
+                                    <div class="card_button">
+                                        <ButtonGroup variant='outline' spacing='6'>
+                                            <Button colorScheme='BlackAlpha' variant='outline' height='35px'>
+                                                <a href={item.website}> {item.company}</a>
+                                                <AiOutlineArrowRight></AiOutlineArrowRight>
+                                            </Button>
+                                        </ButtonGroup>
+                                    </div>
                                 </div>
-                                <div class="card__body">
-                                    <span class="tag tag-blue">{item.date}</span>
-                                    <h4>{item.position}</h4>
-                                    {item.desc}
-                                </div>
-                                <div class="card_button">
-                                    <ButtonGroup variant='outline' spacing='6'>
-                                        <Button colorScheme='BlackAlpha' variant='outline' height='35px'>
-                                            <a href={item.website}> {item.company}</a>
-                                            <AiOutlineArrowRight></AiOutlineArrowRight>
-                                        </Button>
-                                    </ButtonGroup>
-                                </div>
-                            </div>
-                        </div> 
-                    ))}
+                            </div> 
+                        ))}
+                    </div>
 				</div>
 			</div> 
         </>

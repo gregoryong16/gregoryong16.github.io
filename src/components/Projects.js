@@ -1,34 +1,66 @@
 import React from "react"
-import { Box } from "@chakra-ui/react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub,} from "@fortawesome/free-brands-svg-icons";
+import {BsCardChecklist} from "react-icons/bs"
+import mdp from "../images/mdp.png"
+import swe from "../images/swe.png"
 
-export default function Projects() {
-    return <div className="projects_div">
-    <h1 className="projects_header">Projects</h1>
-    <Box className="projects_box">
-        <h1 className="projects_title">
-            Multidisciplinary Project
-        </h1>
-        <ul className="projects_pointers">
-        <li>Configured Raspberry Pi and used it to implement Object Detection model </li>
-        <li>Worked with YOLOv5 and OpenCV</li>
-        <li>Fine tuning of models to achieve desired result (Data augmentation, changing batch size, reducing overfitting, etc)</li>
-        </ul>
-        <a href="https://github.com/gregoryong16/CZ3004-MDP-yolov5"
-               className="projects_git_icon">
-               <FontAwesomeIcon icon={faGithub} size="2x" />
-        </a>
-    </Box>
-    <Box className="projects_box2">
-        <h1 className="projects_title2">
-            Software Engineering Project
-        </h1>
-        <ul className="projects_pointers2">
-        <li>Developed a phone application that tracks real time utility usage of households </li>
-        <li>Designed the User interface of the application</li>
-        <li>Designed algorithm to query data from database</li>
-        </ul>
-    </Box>
-</div>
+const PROJECTS = [
+	{
+		title: 'Multidisciplinary Project',
+		desc: (
+			<ul>
+                <li>Configured Raspberry Pi and used it to implement Object Detection model </li>
+                <li>Worked with YOLOv5 and OpenCV</li>
+                <li>Fine tuning of models to achieve desired result (Data augmentation, changing batch size, reducing overfitting, etc)</li>
+                </ul>
+		),
+		image: mdp,
+        url: "https://github.com/gregoryong16/CZ3004-MDP-yolov5"
+	},
+    {
+        title: "Software Engineering Project",
+        desc: (
+            <ul>
+                <li>Developed a phone application that tracks real time utility usage of households </li>
+                <li>Designed the User interface of the application</li>
+                <li>Designed algorithm to query data from database</li>
+            </ul>
+        ),
+        image: swe,
+        url: "https://github.com/gregoryong16/SWE"
+    },
+];
+
+const Projects = () => {
+    return (
+    <div className="projects_div">
+        <div className='expFlex'>
+            <BsCardChecklist size={100} color='black' />
+            <div className="overall_container">
+            {PROJECTS.map((item, index) => (
+					    <div class="container">
+                            <div class="card" key={index}>
+                                <div class="card__header">
+                                    <img src={item.image} alt="card__image" class="card__image" width="500"/>
+                                </div>
+                                <div class="card_body">
+                                    <h4>{item.title}</h4>
+                                    <p>{item.desc}</p>
+                                </div>
+                                <div class="projects_git_icon">
+                                    <a href= {item.url}
+                                        className="projects_git_icon">
+                                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    ))}
+            </div>
+        </div>
+    </div>
+    )
 }
+
+export default Projects;
