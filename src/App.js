@@ -10,9 +10,11 @@ import Achievements from './components/Achievements';
 import Copyright from './components/Copyright';
 import ScrollToTop from './components/ScrolltoTop';
 import {Helmet} from "react-helmet";
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, useLocation} from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 
 export default function App() {
+  const location = useLocation();
   return (
     <div className="App">
     <Helmet>
@@ -22,23 +24,18 @@ export default function App() {
                 <link rel="canonical" href="http://mysite.com/example" /> 
                 <meta name="description" content="Gregory's Portfolio Website" />
     </Helmet>
-    <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/cca" element={<CCA />} />
-        <Route path="/achievements" element={<Achievements />} />
-    </Routes>
+    <AnimatePresence exitBeforeEnter>
+      <Routes key={location.pathname} location={location}>
+          <Route path="/" element={<Main />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/cca" element={<CCA />} />
+          <Route path="/achievements" element={<Achievements />} />
+      </Routes>
+    </AnimatePresence>
     <Navbar />
-    {/* <Main /> 
-    <Education />
-    <Skills />
-    <Work />
-    <Projects />
-    <CCA />
-    <Achievements /> */}
     <Copyright />
     <ScrollToTop />
     </div>

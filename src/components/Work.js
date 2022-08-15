@@ -3,6 +3,9 @@ import {MdOutlineWork} from 'react-icons/md'
 import {Button,ButtonGroup } from "@chakra-ui/react"
 import amaris from "../images/amaris.png"
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import AnimatedPage from "./AnimatedPage";
+import testimonial from "../files/Amaris Testimonial.pdf"
+import { AiOutlineDownload } from "react-icons/ai"
 
 const WORKEXP = [
 	{
@@ -23,7 +26,7 @@ const WORKEXP = [
 
 const Work = () => {
     return (
-		<>
+		<AnimatedPage>
 			<div className="work_div">
 				<div className='expFlex'>
                     <MdOutlineWork size={100} color='black' />
@@ -40,6 +43,14 @@ const Work = () => {
                                         {item.desc}
                                     </div>
                                     <div class="card_button">
+                                        <div className="card_button_left">
+                                            <ButtonGroup variant='outline' spacing='6'>
+                                                <Button colorScheme='BlackAlpha' variant='outline' height='35px'>
+                                                    <a href={testimonial} download="Amaris Testimonial.pdf"> Testimonial </a>
+                                                    <AiOutlineDownload/>
+                                                </Button>
+                                            </ButtonGroup>
+                                        </div>
                                         <ButtonGroup variant='outline' spacing='6'>
                                             <Button colorScheme='BlackAlpha' variant='outline' height='35px'>
                                                 <a href={item.website}> {item.company}</a>
@@ -53,7 +64,7 @@ const Work = () => {
                     </div>
 				</div>
 			</div> 
-        </>
+        </AnimatedPage>
 	);
 }
 

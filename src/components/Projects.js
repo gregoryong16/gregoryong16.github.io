@@ -1,9 +1,10 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub,} from "@fortawesome/free-brands-svg-icons";
-import {BsCardChecklist} from "react-icons/bs"
+import {GrGroup} from "react-icons/gr"
 import mdp from "../images/mdp.png"
 import swe from "../images/swe.png"
+import AnimatedPage from "./AnimatedPage";
 
 const PROJECTS = [
 	{
@@ -34,32 +35,34 @@ const PROJECTS = [
 
 const Projects = () => {
     return (
-    <div className="projects_div">
-        <div className='expFlex'>
-            <BsCardChecklist size={100} color='black' />
-            <div className="overall_container">
-            {PROJECTS.map((item, index) => (
-					    <div class="container">
-                            <div class="card" key={index}>
-                                <div class="card__header">
-                                    <img src={item.image} alt="card__image" class="card__image" width="500"/>
-                                </div>
-                                <div class="card_body">
-                                    <h4>{item.title}</h4>
-                                    <p>{item.desc}</p>
-                                </div>
-                                <div class="projects_git_icon">
-                                    <a href= {item.url}
-                                        className="projects_git_icon">
-                                        <FontAwesomeIcon icon={faGithub} size="2x" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div> 
-                    ))}
+        <AnimatedPage>
+            <div className="projects_div">
+                <div className='expFlex'>
+                    <GrGroup size={100} color='black' />
+                    <div className="overall_container">
+                    {PROJECTS.map((item, index) => (
+                                <div class="container">
+                                    <div class="card" key={index}>
+                                        <div class="card__header">
+                                            <img src={item.image} alt="card__image" class="card__image" width="500"/>
+                                        </div>
+                                        <div class="card_body">
+                                            <h4>{item.title}</h4>
+                                            <p>{item.desc}</p>
+                                        </div>
+                                        <div class="projects_git_icon">
+                                            <a href= {item.url}
+                                                className="projects_git_icon">
+                                                <FontAwesomeIcon icon={faGithub} size="2x" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            ))}
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+        </AnimatedPage>
     )
 }
 

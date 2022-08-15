@@ -9,10 +9,13 @@ import profile_pic from "../images/profile-photo-cropped.jpg"
 import Avatar1 from "./Avatar1"
 import resume from "../files/Gregory's_Resume.pdf"
 import { AiOutlineDownload } from "react-icons/ai"
+import AnimatedPage from "./AnimatedPage";
 
 export default function Main() {
-    return <div>
-            <Container class = "main" >
+    return (
+      <AnimatedPage>
+         <div>
+            <Container class = "main">
                <Canvas
                      camera={{ position: [2, 0, 12.25], fov: 15 }}
                      style={{
@@ -70,5 +73,7 @@ export default function Main() {
                <FontAwesomeIcon icon={faInstagram} size="2x" />
                </a>
             </div>
-    </div>
+      </div>
+    </AnimatedPage>
+    )
 }
