@@ -2,7 +2,7 @@ import React from "react"
 import {MdOutlineWork} from 'react-icons/md'
 import {Button,ButtonGroup } from "@chakra-ui/react"
 import amaris from "../images/amaris.png"
-import {AiOutlineArrowRight} from 'react-icons/ai'
+import {AiOutlineArrowRight } from 'react-icons/ai'
 import AnimatedPage from "./AnimatedPage";
 import testimonial from "../files/Amaris Testimonial.pdf"
 import { AiOutlineDownload } from "react-icons/ai"
@@ -45,16 +45,14 @@ const Work = () => {
                                     <div class="card_button">
                                         <div className="card_button_left">
                                             <ButtonGroup variant='outline' spacing='6'>
-                                                <Button colorScheme='BlackAlpha' variant='outline' height='35px'>
+                                                <Button rightIcon = {<AiOutlineDownload/>} colorScheme='BlackAlpha' variant='outline' height='35px'>
                                                     <a href={testimonial} download="Amaris Testimonial.pdf"> Testimonial </a>
-                                                    <AiOutlineDownload/>
                                                 </Button>
                                             </ButtonGroup>
                                         </div>
                                         <ButtonGroup variant='outline' spacing='6'>
-                                            <Button colorScheme='BlackAlpha' variant='outline' height='35px'>
+                                            <Button rightIcon={<AiOutlineArrowRight/>} colorScheme='BlackAlpha' variant='outline' height='35px'>
                                                 <a href={item.website}> {item.company}</a>
-                                                <AiOutlineArrowRight></AiOutlineArrowRight>
                                             </Button>
                                         </ButtonGroup>
                                     </div>

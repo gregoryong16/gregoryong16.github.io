@@ -43,9 +43,8 @@ export default function Main() {
                   </Box>
                   <div className= "main-resume">
                      <ButtonGroup variant='outline' spacing='6'>
-                        <Button colorScheme='teal' variant='solid'>
-                           <a href={resume} download="Gregory's Resume.pdf"> Resume </a>
-                           <AiOutlineDownload/>
+                        <Button rightIcon= {<AiOutlineDownload/>} colorScheme='teal' variant='solid'>
+                           <a href={resume} download="Gregory's Resume.pdf"> Resume</a>
                         </Button>
                      </ButtonGroup>
                   </div>
