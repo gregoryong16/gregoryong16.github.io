@@ -1,13 +1,14 @@
 import React from "react";
 import { GrAchievement } from "react-icons/gr";
 import goldmansachs from "../images/goldmansachs.png";
+import jpmorgan from "../images/jpmorgan.png";
 import AnimatedPage from "./AnimatedPage";
 
 const ACHIEVEMENTS = [
   {
     title: (
       <p>
-        JPMorgan Chase & Co. Code for Good 2022 <strong>Winner</strong>
+        JPMorgan Code for Good 2022 <strong>Winner</strong>
       </p>
     ),
     desc: (
@@ -26,7 +27,7 @@ const ACHIEVEMENTS = [
         </li>
       </ul>
     ),
-    image: goldmansachs,
+    image: jpmorgan,
   },
   {
     title: (

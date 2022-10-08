@@ -5,6 +5,7 @@ body,
   height: 100%;
 }
 
+/* Navbar */
 .nav {
   background-color: white;
   height: 8%;
@@ -112,14 +113,28 @@ body,
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .nav {
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 8%;
+    overflow-x: scroll;
+  }
+  .nav-profile_button {
+    margin-left: 50%;
+    margin-right: 10%;
+  }
+  .nav-profile_text {
+    margin-bottom: 2%;
+    font-size: 100%;
+    font-family: var(--chakra-fonts-body);
+    letter-spacing: 1%;
+    color: rgb(104, 99, 99);
   }
 }
 
+/* main */
 .main {
   margin-top: 5%;
   display: flex;
@@ -215,7 +230,56 @@ body,
 .instagram_icon:hover {
   transform: translateY(-5px);
 }
+@media (max-width: 800px) {
+  .main-wrap {
+    height: 100vh;
+    overflow-y: scroll;
+  }
 
+  .main {
+    overflow-x: hidden;
+    height: 80vh;
+  }
+
+  .main-intro-box {
+    height: 100px;
+    width: 80%;
+    background-color: white;
+    color: grey;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border-radius: 10px;
+  }
+
+  .intro-name {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .intro-description {
+    margin-top: 1%;
+    margin-right: 2%;
+    font-size: small;
+    font-family: var(--chakra-fonts-body);
+    margin-left: 2%;
+  }
+  .main-resume {
+    margin-top: 20%;
+  }
+
+  .App {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}
+
+/* education */
 .education_div {
   opacity: 1;
   transform: none;
@@ -229,7 +293,7 @@ body,
   margin-top: 30px;
   animation: slidein 3s;
 }
-
+/*work */
 .work_div {
   opacity: 1;
   transform: none;
@@ -397,11 +461,12 @@ img {
   }
 }
 
+/* skills */
 .skillsContainer {
   display: flex;
   flex-direction: column;
   height: auto;
-  padding-top: 70px;
+  padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
   justify-content: center;
@@ -468,6 +533,7 @@ img {
     width: 90vw;
   }
   .skillsContainer {
+    margin-top: 10%;
     padding: 0px;
     max-width: 100vw;
     display: flex;
@@ -476,6 +542,7 @@ img {
   }
 }
 
+/* projects */
 .projects_div {
   opacity: 1;
   transform: none;
@@ -509,6 +576,7 @@ img {
   align-items: center;
 }
 
+/* achievements */
 .achievements_div {
   height: 100%;
   display: flex;
@@ -516,6 +584,7 @@ img {
   align-items: center;
 }
 
+/* copyright */
 .copyright_div {
   display: flex;
   flex-direction: column;
@@ -528,4 +597,12 @@ img {
   font-size: 100%;
   margin-bottom: 2%;
   color: rgb(15, 15, 15);
+}
+
+@media (max-width: 800px) {
+  .copyright_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
