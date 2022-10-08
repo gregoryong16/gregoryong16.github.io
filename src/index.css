@@ -604,5 +604,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    bottom: 0;
   }
 }
