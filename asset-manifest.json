@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3f42f59.css",
-    "main.js": "/static/js/main.e6a90666.js",
+    "main.css": "/static/css/main.5186e705.css",
+    "main.js": "/static/js/main.dba4065b.js",
     "static/js/787.071eb048.chunk.js": "/static/js/787.071eb048.chunk.js",
     "static/media/football.png": "/static/media/football.6f3ccb578b31a5f6c447.png",
     "static/media/tyh.png": "/static/media/tyh.b8a896b8e98d2e045739.png",
     "static/media/interact.png": "/static/media/interact.df0d1810ea498951df41.png",
+    "static/media/jpmorgan.png": "/static/media/jpmorgan.a9f04d1d02da5e54bdfb.png",
+    "static/media/mdp.png": "/static/media/mdp.21decb56975702c5944f.png",
     "static/media/profile-photo-cropped.jpg": "/static/media/profile-photo-cropped.85cc1698756a8df26765.jpg",
     "static/media/Gregory's_Resume.pdf": "/static/media/Gregory's_Resume.01529fd4067feea90d5c.pdf",
     "static/media/goldmansachs.png": "/static/media/goldmansachs.2e3937ae2524d6eced95.png",
@@ -15,14 +17,13 @@
     "static/media/nyjc.png": "/static/media/nyjc.55218da26a4c5bfa14a1.png",
     "static/media/ntu.png": "/static/media/ntu.96fdfbf1500ee6a1e885.png",
     "static/media/icon.png": "/static/media/icon.78d1bca16cf005aa6193.png",
-    "static/media/mdp.png": "/static/media/mdp.e6e5d36c370e055181e4.png",
     "index.html": "/index.html",
-    "main.b3f42f59.css.map": "/static/css/main.b3f42f59.css.map",
-    "main.e6a90666.js.map": "/static/js/main.e6a90666.js.map",
+    "main.5186e705.css.map": "/static/css/main.5186e705.css.map",
+    "main.dba4065b.js.map": "/static/js/main.dba4065b.js.map",
     "787.071eb048.chunk.js.map": "/static/js/787.071eb048.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3f42f59.css",
-    "static/js/main.e6a90666.js"
+    "static/css/main.5186e705.css",
+    "static/js/main.dba4065b.js"
   ]
 }
