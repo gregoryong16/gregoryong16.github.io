@@ -1,7 +1,9 @@
-html, body, #root, .App{
+html,
+body,
+#root,
+.App {
   height: 100%;
 }
-
 
 .nav {
   background-color: white;
@@ -11,39 +13,40 @@ html, body, #root, .App{
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  position:fixed;
-  top:0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: fixed;
+  top: 0;
   opacity: 0.95;
   z-index: 100;
   width: 100%;
 }
 
-.nav-profile_button{
+.nav-profile_button {
   display: flex;
   align-items: center;
   margin-right: 8%;
   margin-left: 20%;
-  transition: transform 250ms
+  transition: transform 250ms;
 }
 
 .nav-profile_button:hover {
   transform: translateY(-3px);
   font-weight: bold;
 }
-.nav-icon{
-  height:34px;
+.nav-icon {
+  height: 34px;
 }
 
-.nav-profile_text{
+.nav-profile_text {
   margin-bottom: 2%;
   font-size: 150%;
   font-family: var(--chakra-fonts-body);
   letter-spacing: 1%;
-  color:rgb(104, 99, 99);
+  color: rgb(104, 99, 99);
 }
 
-.nav-education_button{
+.nav-education_button {
   margin-right: 2%;
   font-size: 125%;
   transition: transform 250ms;
@@ -54,7 +57,7 @@ html, body, #root, .App{
   text-decoration: underline;
 }
 
-.nav-skills_button{
+.nav-skills_button {
   margin-right: 2%;
   font-size: 125%;
   transition: transform 250ms;
@@ -65,7 +68,7 @@ html, body, #root, .App{
   text-decoration: underline;
 }
 
-.nav-work_button{
+.nav-work_button {
   margin-right: 2%;
   font-size: 125%;
   transition: transform 250ms;
@@ -76,7 +79,7 @@ html, body, #root, .App{
   text-decoration: underline;
 }
 
-.nav-projects_button{
+.nav-projects_button {
   margin-right: 2%;
   font-size: 125%;
   transition: transform 250ms;
@@ -87,7 +90,7 @@ html, body, #root, .App{
   text-decoration: underline;
 }
 
-.nav-cca_button{
+.nav-cca_button {
   margin-right: 2%;
   font-size: 125%;
   transition: transform 250ms;
@@ -98,7 +101,7 @@ html, body, #root, .App{
   text-decoration: underline;
 }
 
-.nav-achievements_button{
+.nav-achievements_button {
   margin-right: 2%;
   font-size: 125%;
   transition: transform 250ms;
@@ -109,35 +112,43 @@ html, body, #root, .App{
   text-decoration: underline;
 }
 
-.main{
-  margin-top: 5%;
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-  height:100%;
-
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 
-.main-intro-box{
+.main {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-intro-box {
   height: 150px;
   width: 50%;
   background-color: white;
   color: grey;
-  display:flex;
+  display: flex;
   align-items: flex-start;
   flex-direction: row;
   border-radius: 10px;
 }
 
-.intro-name{
+.intro-name {
   margin-top: 1%;
   margin-left: 2%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: var(--chakra-fontSizes-3xl);
 }
 
-.intro-description{
+.intro-description {
   margin-top: 1%;
   margin-right: 2%;
   font-size: 110%;
@@ -145,20 +156,20 @@ html, body, #root, .App{
   margin-left: 2%;
 }
 
-.main-profile-icon{
-  height:100%;
+.main-profile-icon {
+  height: 100%;
 }
 
 .socials_tag {
   font-family: sans-serif;
-  font-size: x-large; 
+  font-size: x-large;
   text-align: center;
   margin-top: 4%;
   font-weight: bold;
   color: grey;
 }
 
-.socials_bar{
+.socials_bar {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -166,7 +177,7 @@ html, body, #root, .App{
   margin-bottom: 5%;
 }
 
-.github_icon{
+.github_icon {
   margin-top: 3%;
   margin-right: 5%;
   transition: transform 250ms;
@@ -176,7 +187,7 @@ html, body, #root, .App{
   transform: translateY(-5px);
 }
 
-.linkedin_icon{
+.linkedin_icon {
   margin-top: 3%;
   margin-right: 5%;
   transition: transform 250ms;
@@ -186,7 +197,7 @@ html, body, #root, .App{
   transform: translateY(-5px);
 }
 
-.email_icon{
+.email_icon {
   margin-top: 3%;
   margin-right: 5%;
   transition: transform 250ms;
@@ -196,7 +207,7 @@ html, body, #root, .App{
   transform: translateY(-5px);
 }
 
-.instagram_icon{
+.instagram_icon {
   margin-top: 3%;
   transition: transform 250ms;
 }
@@ -205,43 +216,43 @@ html, body, #root, .App{
   transform: translateY(-5px);
 }
 
-.education_div{
+.education_div {
   opacity: 1;
-	transform: none;
-	visibility: visible;
-	display: flex;
-	height: auto;
-	justify-content: center;
-	align-items: center;
-	padding-left: 20px;
-	padding-right: 20px;
+  transform: none;
+  visibility: visible;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 30px;
   animation: slidein 3s;
 }
 
-.work_div{
+.work_div {
   opacity: 1;
-	transform: none;
-	visibility: visible;
-	display: flex;
-	height: auto;
-	justify-content: center;
-	align-items: center;
-	padding-left: 20px;
-	padding-right: 20px;
+  transform: none;
+  visibility: visible;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 30px;
-  max-width:100%;
+  max-width: 100%;
 }
 
 .grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
 
 .grid-item {
-	padding: 20px;
-	text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .container {
@@ -268,40 +279,39 @@ img {
   flex-direction: column;
   width: clamp(15rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
-  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
-  background: #ECE9E6;
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: #ece9e6;
+  background: linear-gradient(to right, #ffffff, #ece9e6);
 }
 
 .card_body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
-.card_button_left{
-  margin-right:10%;
+.card_button_left {
+  margin-right: 10%;
 }
 
 .tag {
   align-self: flex-start;
-  padding: .25em .75em;
+  padding: 0.25em 0.75em;
   border-radius: 1em;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
-
 .tag-blue {
-  background: #56CCF2;
-  background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  background: #56ccf2;
+  background: linear-gradient(to bottom, #2f80ed, #56ccf2);
   color: #fafafa;
 }
 
 .tag-brown {
-  background: #D1913C;
-  background: linear-gradient(to bottom, #FFD194, #D1913C);
+  background: #d1913c;
+  background: linear-gradient(to bottom, #ffd194, #d1913c);
   color: #fafafa;
 }
 
@@ -316,172 +326,172 @@ img {
   text-transform: capitalize;
 }
 
-.card_button{
-  display:flex;
+.card_button {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 10px;
 }
 
 .item-image-container {
-	margin-bottom: 10px;
-  display:flex;
+  margin-bottom: 10px;
+  display: flex;
   justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	height: 200px;
+  align-items: center;
+  overflow: hidden;
+  height: 200px;
 }
-.item-image-container > img{
-	max-width: 100%; 
-  max-height: 100%; 
+.item-image-container > img {
+  max-width: 100%;
+  max-height: 100%;
 }
 .item-title {
-	font-size: 20px;
-	font-weight: bold;
-	color: black;
-	margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
 }
-.item-postion{
+.item-postion {
   margin-bottom: 10px;
 }
 .item-subtitle,
 .item-desc {
-	color: var(--text-gray-color);
-	margin-bottom: 20px;
-	text-align: center;
+  color: var(--text-gray-color);
+  margin-bottom: 20px;
+  text-align: center;
 }
 .item-subtitle {
-	text-align: center !important;
+  text-align: center !important;
 }
 
 .expFlex {
   margin-top: 100px;
-	max-width: 1024px;
-	display: flex;
-	gap: 20px;
-	flex-direction: column;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
   justify-content: center;
-	align-items: center;
+  align-items: center;
 }
 
-.overall_container{
+.overall_container {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 @media (max-width: 800px) {
-	.expContainer {
-		padding: 0px;
-		max-width: 100vw;
-	}
+  .expContainer {
+    padding: 0px;
+    max-width: 100vw;
+  }
 
-	.expFlex {
-		flex-direction: column;
-		width: 90vw;
-	}
+  .expFlex {
+    flex-direction: column;
+    width: 90vw;
+  }
 
-	.grid-container {
-		display: grid;
-		grid-template-columns: auto;
-		padding: 10px;
-	}
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
 }
 
 .skillsContainer {
-	display: flex;
-	flex-direction: column;
-	height: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
   padding-top: 70px;
-	padding-left: 20px;
-	padding-right: 20px;
-	justify-content: center;
-	align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .skillsFlex {
-	max-width: 1024px;
-	gap: 20px;
+  max-width: 1024px;
+  gap: 20px;
 }
 
 .flexContainer {
-	display: flex;
-	flex-direction: row;
-	height: fit-content;
-	width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 100%;
 }
 
 .rightContainer {
-	display: flex;
-	flex: 4;
-	flex-direction: column;
+  display: flex;
+  flex: 4;
+  flex-direction: column;
 }
 .itemContainer {
   margin-top: 30px;
-	flex: 1;
-	display: flex;
-	flex-direction: row;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
 }
 
 .itemTitle {
-	flex: 1;
-	padding: 10px;
-	color: grey;
-	font-size: 22px;
-	display: flex;
-	flex-direction: row;
+  flex: 1;
+  padding: 10px;
+  color: grey;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
   margin-top: 10px;
 }
 
 .itemTitle > span {
-	margin-top: 10px;
-	margin-left: 10px;
-	font-weight: 600;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 600;
 }
 
 .itemDesc {
-	flex: 3;
+  flex: 3;
 }
 
 .itemDesc > p {
-	margin-top: 20px;
-	padding: 10px;
-	color: black;
+  margin-top: 20px;
+  padding: 10px;
+  color: black;
 }
 
 .skillsTitle {
-	padding: 10px;
-	font-size: 32px;
+  padding: 10px;
+  font-size: 32px;
 }
 
 @media (max-width: 800px) {
-	.itemContainer {
-		flex-direction: column;
-		width: 90vw;
-	}
-	.skillsContainer {
-		padding: 0px;
-		max-width: 100vw;
-		display: flex;
-		height: 100%;
-		overflow: auto;
-	}
+  .itemContainer {
+    flex-direction: column;
+    width: 90vw;
+  }
+  .skillsContainer {
+    padding: 0px;
+    max-width: 100vw;
+    display: flex;
+    height: 100%;
+    overflow: auto;
+  }
 }
 
-.projects_div{
+.projects_div {
   opacity: 1;
-	transform: none;
-	visibility: visible;
-	display: flex;
-	height: auto;
-	justify-content: center;
-	align-items: center;
-	padding-left: 20px;
-	padding-right: 20px;
+  transform: none;
+  visibility: visible;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 30px;
 }
-.projects_git_icon{
+.projects_git_icon {
   margin-top: 1%;
   transition: transform 250ms;
-  margin-left:5%;
+  margin-left: 5%;
   margin-bottom: 2%;
 }
 
@@ -492,30 +502,28 @@ img {
 .card_body > p {
   margin-left: 6%;
 }
-.cca_div{
+.cca_div {
   height: 150%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-.achievements_div{
+.achievements_div {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-.copyright_div{
+.copyright_div {
   display: flex;
   flex-direction: column;
   align-items: center;
   bottom: 0;
 }
 
-.copyright_header{
+.copyright_header {
   margin-top: 5%;
   font-size: 100%;
   margin-bottom: 2%;
