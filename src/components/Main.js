@@ -48,11 +48,7 @@ export default function Main() {
                 front and backend programming, and also in AI.
               </h2>
             </Box>
-            <Avatar
-              className="main-profile-icon"
-              size="3xl"
-              src={profile_pic}
-            />
+            <Avatar size="2xl" src={profile_pic} />
           </Box>
           <div className="main-resume">
             <ButtonGroup variant="outline" spacing="6">
