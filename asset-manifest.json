@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.3176d855.css",
-    "main.js": "/static/js/main.d13f5217.js",
+    "main.css": "/static/css/main.5de23610.css",
+    "main.js": "/static/js/main.f9edccb9.js",
     "static/js/787.071eb048.chunk.js": "/static/js/787.071eb048.chunk.js",
     "static/media/jpmorgan.png": "/static/media/jpmorgan.2e736e0ebf065c9d2163.png",
     "static/media/football.png": "/static/media/football.6f3ccb578b31a5f6c447.png",
     "static/media/tyh.png": "/static/media/tyh.b8a896b8e98d2e045739.png",
     "static/media/interact.png": "/static/media/interact.df0d1810ea498951df41.png",
+    "static/media/nlp.png": "/static/media/nlp.911c14e73454274ebcd7.png",
     "static/media/mdp.png": "/static/media/mdp.21decb56975702c5944f.png",
     "static/media/profile-photo-cropped.jpg": "/static/media/profile-photo-cropped.85cc1698756a8df26765.jpg",
     "static/media/Gregory's_Resume.pdf": "/static/media/Gregory's_Resume.01529fd4067feea90d5c.pdf",
@@ -15,15 +16,17 @@
     "static/media/amaris.png": "/static/media/amaris.dc91005dca25773c0a88.png",
     "static/media/swe.png": "/static/media/swe.01d98adb2952d75e4a0a.png",
     "static/media/nyjc.png": "/static/media/nyjc.55218da26a4c5bfa14a1.png",
+    "static/media/db.png": "/static/media/db.1951e5c1e5017e7f47b0.png",
+    "static/media/ase.png": "/static/media/ase.8b21990e412ac95b8a20.png",
     "static/media/ntu.png": "/static/media/ntu.96fdfbf1500ee6a1e885.png",
     "static/media/icon.png": "/static/media/icon.78d1bca16cf005aa6193.png",
     "index.html": "/index.html",
-    "main.3176d855.css.map": "/static/css/main.3176d855.css.map",
-    "main.d13f5217.js.map": "/static/js/main.d13f5217.js.map",
+    "main.5de23610.css.map": "/static/css/main.5de23610.css.map",
+    "main.f9edccb9.js.map": "/static/js/main.f9edccb9.js.map",
     "787.071eb048.chunk.js.map": "/static/js/787.071eb048.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3176d855.css",
-    "static/js/main.d13f5217.js"
+    "static/css/main.5de23610.css",
+    "static/js/main.f9edccb9.js"
   ]
 }
