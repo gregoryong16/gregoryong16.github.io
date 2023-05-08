@@ -8,6 +8,8 @@ import AnimatedPage from "./AnimatedPage";
 import nlp from "../images/nlp.png";
 import db from "../images/db.png";
 import ase from "../images/ase.png";
+import ir from "../images/IR.png";
+import bigdata from "../images/bigdata.png";
 
 const PROJECTS = [
   {
@@ -46,7 +48,43 @@ const PROJECTS = [
     url: "https://github.com/gregoryong16/CZ3002_ASE",
   },
   {
-    title: "Connecting Query with Query Plans",
+    title: "Information Retrieval Project",
+    desc: (
+      <ul>
+        <li>
+          Crawled data on Shopee Products and implemented indexing on data using
+          ElasticSearch
+        </li>
+        <li>
+          Developed a webapp using Django with search function to allow users to
+          find products{" "}
+        </li>
+        <li>Implemented multi-faceted search for refining of search</li>
+        <li>Performed sentimental analysis of reviews on Products</li>
+      </ul>
+    ),
+    image: ir,
+    url: "https://github.com/gregoryong16/CZ4034_IR",
+  },
+  {
+    title: "Big Data Management Project",
+    desc: (
+      <ul>
+        <li>
+          Built a column store using disklist (A python list implementation that
+          uses the disk to handle very large collections of pickle-able objects)
+        </li>
+        <li>
+          Implemented enhancements to improve column store such as zone maps,
+          compression and shared scans.
+        </li>
+      </ul>
+    ),
+    image: bigdata,
+    url: "https://github.com/gregoryong16/CZ4123-Big-Data-Management",
+  },
+  {
+    title: "Advanced Database Project",
     desc: (
       <ul>
         <li>Retrieving relevant information from QEP and AQPs</li>

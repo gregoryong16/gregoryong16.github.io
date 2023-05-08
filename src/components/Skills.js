@@ -25,7 +25,7 @@ const Skills = () => {
 										<b>Programming:</b>
 										<br />
 										ReactJS, React Native, Java, Python,
-										Firebase, C, MySQL
+										Firebase, C, SQL, NoSQL
 									</p>
 								</span>
 							</div>  
