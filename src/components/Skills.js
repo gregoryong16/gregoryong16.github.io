@@ -20,12 +20,11 @@ const Skills = () => {
 									<p>
 										<b>Topics:</b> <br />
 										Web Development, Mobile App Development, Data Science,
-										AI, Algorithms, Machine Learning, Object-Oriented Design, Agile
+										Algorithms, Machine Learning, Object-Oriented Design, Database Management, Agile
 										<br /> <br />
 										<b>Programming:</b>
 										<br />
-										ReactJS, React Native, Java, Python,
-										Firebase, C, SQL, NoSQL
+										ReactJS, React Native, Java, Python, C, SQL
 									</p>
 								</span>
 							</div>  
@@ -51,7 +50,7 @@ const Skills = () => {
 									<p>
 										<b>Software used:</b>
 										<br />
-										Microsoft Office, Visual Studios, Android Studio, Figma, Zoom, Discord, Slack
+										Github, Microsoft Office, Visual Studios, Android Studio, Figma, Zoom, Discord, Slack
 									</p>
 								</span>
 							</div>
