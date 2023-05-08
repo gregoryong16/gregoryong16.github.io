@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5de23610.css",
-    "main.js": "/static/js/main.f9edccb9.js",
+    "main.js": "/static/js/main.0948dedb.js",
     "static/js/787.071eb048.chunk.js": "/static/js/787.071eb048.chunk.js",
     "static/media/jpmorgan.png": "/static/media/jpmorgan.2e736e0ebf065c9d2163.png",
     "static/media/football.png": "/static/media/football.6f3ccb578b31a5f6c447.png",
@@ -14,19 +14,21 @@
     "static/media/goldmansachs.png": "/static/media/goldmansachs.2e3937ae2524d6eced95.png",
     "static/media/Amaris Testimonial.pdf": "/static/media/Amaris Testimonial.f001b546e21b665e4774.pdf",
     "static/media/amaris.png": "/static/media/amaris.dc91005dca25773c0a88.png",
+    "static/media/bigdata.png": "/static/media/bigdata.5ecbe05928a757d7de7e.png",
     "static/media/swe.png": "/static/media/swe.01d98adb2952d75e4a0a.png",
     "static/media/nyjc.png": "/static/media/nyjc.55218da26a4c5bfa14a1.png",
     "static/media/db.png": "/static/media/db.1951e5c1e5017e7f47b0.png",
+    "static/media/IR.png": "/static/media/IR.ab4032c76a25e225f376.png",
     "static/media/ase.png": "/static/media/ase.8b21990e412ac95b8a20.png",
     "static/media/ntu.png": "/static/media/ntu.96fdfbf1500ee6a1e885.png",
     "static/media/icon.png": "/static/media/icon.78d1bca16cf005aa6193.png",
     "index.html": "/index.html",
     "main.5de23610.css.map": "/static/css/main.5de23610.css.map",
-    "main.f9edccb9.js.map": "/static/js/main.f9edccb9.js.map",
+    "main.0948dedb.js.map": "/static/js/main.0948dedb.js.map",
     "787.071eb048.chunk.js.map": "/static/js/787.071eb048.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5de23610.css",
-    "static/js/main.f9edccb9.js"
+    "static/js/main.0948dedb.js"
   ]
 }
