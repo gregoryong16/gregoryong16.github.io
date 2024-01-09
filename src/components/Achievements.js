@@ -3,8 +3,27 @@ import { GrAchievement } from "react-icons/gr";
 import goldmansachs from "../images/goldmansachs.png";
 import jpmorgan from "../images/jpmorgan.png";
 import AnimatedPage from "./AnimatedPage";
+import tiktok from "../images/tiktok.png";
 
 const ACHIEVEMENTS = [
+  {
+    title: (
+      <p>
+        TikTok Hackathon Challenge 2023 <strong>Finalist</strong>
+      </p>
+    ),
+    desc: (
+      <ul>
+        <li>Built a Serverless Dropshipping Platform</li>
+        <br></br>
+        <li>
+          Leveraged the power of AWS and Terraform to create a scalable and
+          reliable backend
+        </li>
+      </ul>
+    ),
+    image: tiktok,
+  },
   {
     title: (
       <p>

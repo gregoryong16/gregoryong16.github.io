@@ -10,8 +10,47 @@ import db from "../images/db.png";
 import ase from "../images/ase.png";
 import ir from "../images/IR.png";
 import bigdata from "../images/bigdata.png";
+import tiger from "../images/tiger.png";
+import dutchauction from "../images/dutchAuction.png";
 
 const PROJECTS = [
+  {
+    title: "Final Year Project",
+    desc: (
+      <ul>
+        <li>
+          Built an optimised lightweight model that is designed for tiger
+          detection in the wild
+        </li>
+        <li>
+          Proposed model outperforms existing state of the art lightweight
+          models in terms of speed and precision while maintaining a lower model
+          complexity
+        </li>
+        <li>Built upon ShuffleNet Architecture</li>
+      </ul>
+    ),
+    image: tiger,
+    url: "https://github.com/gregoryong16/FYP",
+  },
+  {
+    title: "Blockchain Dutch Auction",
+    desc: (
+      <ul>
+        <li>Implemented smart contracts on Ethereum</li>
+        <li>
+          Develoepd a front end webapp (developed using NextJS and styled using
+          ChakraUI)
+        </li>
+        <li>
+          Simulate a new token launch (AToken) whose tokens are bidded with
+          Ether and distributed via a Dutch Auction over 20 minutes time
+        </li>
+      </ul>
+    ),
+    image: dutchauction,
+    url: "https://github.com/gregoryong16/Blockchain_Dutch_Auction",
+  },
   {
     title: "Natural Language Processing",
     desc: (
