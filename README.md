@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @gregoryong16
-- 👀 I’m interested in front and backend development, and also in AI.
-- 🌱 I’m currently in my final year of studies in Nanyang Technological University as a Computer Science Student.
+- 👀 I’m passionate about building impactful solutions and continuously upgrading my technical skills.
+- 🌱 I'm a full-time Software Engineer at JPMorgan and a Computer Science graduate from Nanyang Technological University.
 - 📫 You can reach me at gregory.ong16@gmail.com
 
 <!---
