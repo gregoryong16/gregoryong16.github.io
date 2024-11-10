@@ -110,7 +110,7 @@ const Work = () => {
                     />
                   </div>
                   <div class="card_body">
-                    <span class="tag tag-blue">{item.date}</span>
+                    <span class="tag tag-red">{item.date}</span>
                     <h4>{item.position}</h4>
                     <p>{item.desc}</p>
                   </div>
