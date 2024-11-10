@@ -7,18 +7,16 @@ import AnimatedPage from "./AnimatedPage";
 import testimonial from "../files/Amaris Testimonial.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import jpm from "../images/jpm.png";
-import idemia from "../images/idemia.png"
+import idemia from "../images/idemia.png";
 
-const IDEMIAEXP =[
+const CURRENTEXP = [
   {
-    company: "Idemia",
-    position: "Software Engineering Intern",
-    date: "Jan 2024 - May 2024",
+    company: "JP Morgan",
+    position: "Software Engineer",
+    date: "Aug 2024 - current",
     desc: (
       <ul>
-        <li>
-          Currently ongoing internship
-        </li>
+        <li>Full Time</li>
         <br></br>
         <br></br>
         <br></br>
@@ -26,12 +24,34 @@ const IDEMIAEXP =[
         <br></br>
       </ul>
     ),
+    image: jpm,
+    website: "https://www.jpmorgan.com/SG/en/about-us",
+  },
+];
+
+const IDEMIAEXP = [
+  {
+    company: "Idemia",
+    position: "Software Engineering Intern",
+    date: "Jan 2024 - May 2024",
+    desc: (
+      <ul>
+        <li>
+          Built a full-stack application to collect and label finger position
+          images for machine learning in biometric verification 
+        </li>
+        <li>
+          Enabled accurate verification of correct finger placement for improved
+          immigration security
+        </li>
+      </ul>
+    ),
     image: idemia,
     website: "https://www.idemia.com/",
   },
 ];
 
-const JPMEXP =[
+const JPMEXP = [
   {
     company: "JP Morgan",
     position: "Software Engineering Intern",
@@ -42,7 +62,10 @@ const JPMEXP =[
           Collaborated with cross-functional teams to implement new features
         </li>
         <br></br>
-        <li>Development of an existing software project tool to enhance its functionality and user experience for stakeholders </li>
+        <li>
+          Development of an existing software project tool to enhance its
+          functionality and user experience for stakeholders{" "}
+        </li>
       </ul>
     ),
     image: jpm,
@@ -75,7 +98,7 @@ const Work = () => {
         <div className="expFlex">
           <MdOutlineWork size={100} color="black" />
           <div className="overall_container">
-          {IDEMIAEXP.map((item, index) => (
+            {CURRENTEXP.map((item, index) => (
               <div class="container">
                 <div class="card" key={index}>
                   <div class="card_header">
@@ -106,7 +129,38 @@ const Work = () => {
                 </div>
               </div>
             ))}
-          {JPMEXP.map((item, index) => (
+            {IDEMIAEXP.map((item, index) => (
+              <div class="container">
+                <div class="card" key={index}>
+                  <div class="card_header">
+                    <img
+                      src={item.image}
+                      alt="card__image"
+                      class="card__image"
+                      width="500"
+                    />
+                  </div>
+                  <div class="card_body">
+                    <span class="tag tag-blue">{item.date}</span>
+                    <h4>{item.position}</h4>
+                    <p>{item.desc}</p>
+                  </div>
+                  <div class="card_button">
+                    <ButtonGroup variant="outline" spacing="6">
+                      <Button
+                        rightIcon={<AiOutlineArrowRight />}
+                        colorScheme="BlackAlpha"
+                        variant="outline"
+                        height="35px"
+                      >
+                        <a href={item.website}> {item.company}</a>
+                      </Button>
+                    </ButtonGroup>
+                  </div>
+                </div>
+              </div>
+            ))}
+            {JPMEXP.map((item, index) => (
               <div class="container">
                 <div class="card" key={index}>
                   <div class="card_header">

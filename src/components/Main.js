@@ -43,9 +43,7 @@ export default function Main() {
             <Box className="main-intro-subbox">
               <h1 className="intro-name">Hi, I&apos;m Gregory!</h1>
               <h2 className="intro-description">
-                I am a penultimate Computer Science student currently studying
-                in Nanyang Technological University. I am interested in both
-                front and backend programming, and also in AI.
+                I'm a full-time Software Engineer at JPMorgan and a Computer Science graduate from Nanyang Technological University. I’m passionate about building impactful solutions and continuously upgrading my technical skills.
               </h2>
             </Box>
             <Avatar size="2xl" src={profile_pic} />

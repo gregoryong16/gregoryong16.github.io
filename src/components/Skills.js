@@ -19,12 +19,12 @@ const Skills = () => {
 								<span className='itemDesc'>
 									<p>
 										<b>Topics:</b> <br />
-										Web Development, Mobile App Development, Data Science,
+										Full Stack Development, Data Science,
 										Algorithms, Machine Learning, Object-Oriented Design, Database Management, Agile
 										<br /> <br />
 										<b>Programming:</b>
 										<br />
-										ReactJS, React Native, Java, Python, C, SQL
+										ReactJS, React Native, NodeJS, Java, Python, C, SQL, NoSQL
 									</p>
 								</span>
 							</div>  
@@ -50,7 +50,7 @@ const Skills = () => {
 									<p>
 										<b>Software used:</b>
 										<br />
-										Github, Microsoft Office, Visual Studios, Android Studio, Figma, Zoom, Discord, Slack
+										Docker, AWS, IntelliJ, Visual Studio Code, Github
 									</p>
 								</span>
 							</div>
