@@ -13,7 +13,7 @@ const CURRENTEXP = [
   {
     company: "JP Morgan",
     position: "Software Engineer",
-    date: "Aug 2024 - current",
+    date: "Aug 2024 - Present",
     desc: (
       <ul>
         <li>Full Time</li>
@@ -38,7 +38,7 @@ const IDEMIAEXP = [
       <ul>
         <li>
           Built a full-stack application to collect and label finger position
-          images for machine learning in biometric verification 
+          images for machine learning in biometric verification
         </li>
         <li>
           Enabled accurate verification of correct finger placement for improved
